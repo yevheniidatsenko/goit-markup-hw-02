@@ -1,0 +1,238 @@
+:root {
+  --color-white: #ffffff;
+  --primary-color: #2e2f42;
+  --secondary-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-slate: #434455;
+  --color-cloud: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: pink;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* PAGE STUDIO */
+
+.header-logo-blue {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-black {
+  color: var(--primary-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: var(--color-navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-ocean);
+}
+
+.header-contacts {
+  font-style: normal;
+}
+.header-contacts-link {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--color-ocean);
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: var(--primary-color);
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--color-white);
+  background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
+}
+
+.benefits-title {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.benefits-text {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* PREVIEW */
+
+.preview-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* OUR TEAM */
+
+.team {
+  background-color: var(--color-cloud);
+}
+
+.team-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+  background-color: var(--color-white);
+}
+
+.team-item {
+  background-color: var(--color-white);
+}
+
+.team-member {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-occupation {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer-logo-blue {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-white {
+  color: var(--color-cloud);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-subtext {
+  color: var(--background-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* PORTFOLIO PAGE */
+
+.nav-button-proposals {
+  color: var(--accent-color);
+  background-color: var(--color-cloud);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.nav-button-proposals:hover,
+.nav-button-proposals:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+
+.product-title {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.prodcut-type {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
