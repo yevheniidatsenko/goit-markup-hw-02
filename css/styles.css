@@ -46,15 +46,16 @@ body {
   text-transform: uppercase;
 }
 
-.header-link {
-  color: var(--color-navy-blue);
+.header-nav-link {
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--color-ocean);
 }
 
@@ -116,6 +117,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* PREVIEW */
@@ -127,6 +129,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* OUR TEAM */
