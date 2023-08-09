@@ -1,7 +1,6 @@
 :root {
   --color-white: #ffffff;
   --primary-color: #2e2f42;
-  --secondary-color: #f4f4fd;
   --accent-color: #4d5ae5;
   --color-ocean: #404bbf;
   --color-slate: #434455;
@@ -169,6 +168,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* FOOTER */
@@ -198,10 +198,11 @@ body {
 }
 
 .footer-subtext {
-  color: var(--background-color);
+  color: var(--primary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* PORTFOLIO PAGE */
